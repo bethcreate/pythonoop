@@ -1,9 +1,11 @@
 class  Student:
     school="Akirachix"
-    def __init__(self,first_name,last_name,age):
+    def __init__(self,first_name,last_name,age,):
         self.first_name=first_name
         self.last_name=last_name
         self.age=age
+        
+        
     def speak(self):
         return f"Hello class, my name is {self.name}"
     def year_of_birth(self):
